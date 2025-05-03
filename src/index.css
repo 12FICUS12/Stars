@@ -1,0 +1,24 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;  /* Центр по горизонтали */
+  align-items: center;      /* Центр по вертикали */
+  background-color: #222;   /* Темный фон для контраста */
+}
+
+/* Стили для списка звезд */
+
+.card-body-stars {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 5px; /* небольшой интервал между звездами */
+}
+
+/* Можно добавить hover-эффект или курсор */
+
+.card-body-stars li {
+  cursor: default;
+}
